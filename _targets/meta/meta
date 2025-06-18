@@ -1,0 +1,10 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+raw_data|stem|dc2b96cfe1c39db3|7c214b853ba45ade|90471779626cfb7b|-1101284392||t20255.1031264458s|s276b|276|rds|local|vector|||0.397||
+fox_data|stem|2516a77c5cb5e70b|4ac8d380666275de|68b4d3a4ef3fc6e9|1899924195||t20255.1031268287s|s229b|229|rds|local|vector|||0.011||
+daily_fox_counts|stem|57c88e6c09b2efed|5a98b0893dfb7fc6|d5a623b20a13e266|-154428112||t20255.1031270792s|s212b|212|rds|local|vector|||0.004||
+fox_plot|stem|8c8c926792488443|0ac07de256c9b1ad|9a70e390f7a23811|789134142||t20255.1031305221s|s74b|74|rds|local|vector|||0.293|Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0. ℹ Please use `linewidth` instead.|
+summarize_counts|function|7150b5527d5cbe97
+.Random.seed|object|f8902772c959a003
+plot_counts|function|b7d26c0110e7803a
+load_data|function|be0588ab54359c8d
+filter_species|function|5a4e57d76b8ae265
