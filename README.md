@@ -7,7 +7,7 @@ This repo serves a minimal example for creating and running your own targets pip
 ```targets::tar_script()  # Generates _targets.R```
 
 # 2. Define pipeline in _targets.R
-# Example:
+### Example:
 ```library(targets)
 tar_option_set(packages = "dplyr")
 list(
@@ -19,10 +19,10 @@ list(
 ```targets::tar_make()```
 
 # 4. Visualize pipeline dependency graph
-```targets::tar_visnetwork()          # Static view```
+```targets::tar_visnetwork()          # Static view
 targets::tar_visnetwork(targets_only = TRUE)  # Exclude functions
-
+```
 # Optional:
-# Clean results
+### Clean results
 ```targets::tar_destroy()```
 
